@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./img/login.jpg);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    margin: 150px auto;
+    padding: 20px;
+    background-color: #4b3082;
+    border: 5px solid #ff0000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+/* Login and Register Form Styles */
+
+.login-form, .register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: #000000;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #2bdb04;
+    color: black;
+}
+
+p {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #40ff00;
+}
+
+a:hover {
+    color: #00fbff;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 600px) {
+    .container {
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        margin: 10px auto;
+    }
+}

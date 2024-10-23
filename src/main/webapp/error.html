@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+    <link rel="stylesheet" href="error.css">
+</head>
+
+<body>
+    <header>
+        <h1>NOT ADDED MORE THEN ONE SAME COURSE</h1>
+    </header>
+    <main>
+        <section>
+            <h2>YOU HAVE ALREADY ADDED THIS COURSE</h2>
+            <p>Sorry about that! We are not added your course please check in "VIEW YOUR COURSES"</p>
+        </section>
+       
+    </main>
+    <button><a href="online.html">BACK</a></button>
+    <footer>
+        <p>&copy; Oops! Error Page</p>
+    </footer>
+    <script>
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const goBackButton = document.querySelector("li:nth-child(3) a");
+            goBackButton.addEventListener("click", function () {
+                history.back();
+            });
+        });
+    </script>
+</body>
+
+</html>

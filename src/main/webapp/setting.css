@@ -1,0 +1,16 @@
+@charset "UTF-8";
+#child {
+    background-image: url(./img/chil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 18rem;
+    right: -39rem;
+    top: 0;
+    position: absolute;
+    transition: right 0.3s ease; /* Smooth transition */
+    z-index: 1;
+}
+#Layer_1{
+    float: right;
+}

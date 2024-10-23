@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You Page</title>
+    <link rel="stylesheet" href="already.css">
+</head>
+<body>
+    <div class="container">
+        <h1>OOPS!</h1>
+        <p>This Username Has Already Taken</p>
+        <button id="back-btn">Go Back</button>
+    </div>
+
+    <script>
+        document.getElementById('back-btn').addEventListener('click', function() {
+        window.history.back();
+});
+    </script>
+</body>
+</html>

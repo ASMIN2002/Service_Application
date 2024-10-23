@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="contact.css">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>CONTACT US</title>
+</head>
+<body>
+
+	<div class="contact-section">
+		<div class="contact-info">
+			<div>
+				<i class="fa fa-map-marker">Address, City, Country</i>
+			</div>
+			<div>
+				<i class="fa fa-envelope">contact@gmail.com</i>
+			</div>
+			<div>
+				<i class="fa fa-phone-square">+91 0000 000 0000</i>
+			</div>
+			<div>
+				<i class="fa fa-clock-o">Mon - Fri 8:00 AM to 5:00 PM</i>
+			</div>
+		</div>
+
+		<div class="contact-form">
+			<h2>Contact Us</h2>
+			<form class="contact" action="https://api.web3forms.com/submit"
+				method="POST">
+
+				<input type="hidden" name="access_key" value="8b64c9a0-e1a5-41fb-b999-726e44f24fb4">
+				<input type="text" name="name" class="text-box"
+					placeholder="Your Name" required> <input type="email"
+					name="email" class="text-box" placeholder="Your Email" required>
+				<textarea name="message" rows="5" placeholder="Your Message"
+					required></textarea>
+				<input type="submit" name="submit" class="send-btn" value="Send">
+				<a href="home.jsp">BACK</a>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
